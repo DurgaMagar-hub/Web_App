@@ -1,8 +1,13 @@
-
+import Link from 'next/link';
 export default function navbar(){
     return (
         <div>
-            <h1>Navbar</h1>
+            <Link href="/">
+                Logo
+            </Link>
+            <Link href="/about">
+                About Us
+            </Link>
         </div>
     );
 }
